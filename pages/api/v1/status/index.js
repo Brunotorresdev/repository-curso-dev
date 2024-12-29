@@ -1,4 +1,4 @@
-import database from "../../../../infra/database.js";
+import database from "infra/database.js";
 
 const status = async (request, response) => {
   // console.log("🚀 ~ database:", database);
